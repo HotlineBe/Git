@@ -9,7 +9,7 @@ $dataSend = "";
 
 foreach ($data in $datas){
 
-    $dataSend += '<tr><td>' + $data.Intitule + '</td><td>' + $data.Description + '</td><td>' + $data.Notes + '</td><td>' +  $data.NomClient + '</td><td>' + $data.PlanningDebut + '</td></tr>'
+    $dataSend += '<tr><td>' + $data.Intervenant + '</td><td>' + $data.Description + '</td><td>' + $data.Notes + '</td><td>' +  $data.NomClient + '</td><td>' + $data.PlanningDebut + '</td></tr>'
 }
 
 if($dataSend -ne ''){
