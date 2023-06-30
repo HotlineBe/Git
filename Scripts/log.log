@@ -1,0 +1,1387 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 30 janvier 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   5	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		       0	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         5         1         4         0         0         2
+  Octetsˇ:     4.0 k         0     4.0 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+   Finˇ: lundi 30 janvier 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: samedi 4 fÇvrier 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   5	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		    1242	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         5         1         4         0         0         2
+  Octetsˇ:     5.2 k     1.2 k     4.0 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+   Finˇ: samedi 4 fÇvrier 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 6 fÇvrier 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   5	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		    2484	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         5         1         4         0         0         2
+  Octetsˇ:     6.4 k     2.4 k     4.0 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:              828000 Octets/sec.
+   DÇbitˇ:              47.378 MÇga-octets/min.
+   Finˇ: lundi 6 fÇvrier 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: samedi 11 fÇvrier 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   5	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		    3821	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         5         1         4         0         0         2
+  Octetsˇ:     7.7 k     3.7 k     4.0 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             1910500 Octets/sec.
+   DÇbitˇ:             109.319 MÇga-octets/min.
+   Finˇ: samedi 11 fÇvrier 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 13 fÇvrier 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   5	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		    5162	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         5         1         4         0         0         2
+  Octetsˇ:     9.0 k     5.0 k     4.0 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:              860333 Octets/sec.
+   DÇbitˇ:              49.228 MÇga-octets/min.
+   Finˇ: lundi 13 fÇvrier 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: samedi 18 fÇvrier 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   5	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		    1689	AlertDeleteBackup.ps1100%  
+	   Plus rÇcent		    6501	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         5         2         3         0         0         2
+  Octetsˇ:    10.4 k     7.9 k     2.4 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+   Finˇ: samedi 18 fÇvrier 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 20 fÇvrier 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   5	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		    7801	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         5         1         4         0         0         2
+  Octetsˇ:    11.7 k     7.6 k     4.0 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             2600333 Octets/sec.
+   DÇbitˇ:             148.792 MÇga-octets/min.
+   Finˇ: lundi 20 fÇvrier 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: samedi 25 fÇvrier 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   5	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		    9140	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         5         1         4         0         0         2
+  Octetsˇ:    13.0 k     8.9 k     4.0 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:              652857 Octets/sec.
+   DÇbitˇ:              37.356 MÇga-octets/min.
+   Finˇ: samedi 25 fÇvrier 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 27 fÇvrier 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   5	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   10481	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         5         1         4         0         0         2
+  Octetsˇ:    14.3 k    10.2 k     4.0 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+   Finˇ: lundi 27 fÇvrier 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: samedi 4 mars 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   5	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   11723	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         5         1         4         0         0         2
+  Octetsˇ:    15.5 k    11.4 k     4.0 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             5861500 Octets/sec.
+   DÇbitˇ:             335.397 MÇga-octets/min.
+   Finˇ: samedi 4 mars 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 6 mars 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   5	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   13056	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         5         1         4         0         0         2
+  Octetsˇ:    16.8 k    12.7 k     4.0 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             4352000 Octets/sec.
+   DÇbitˇ:             249.023 MÇga-octets/min.
+   Finˇ: lundi 6 mars 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: samedi 11 mars 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   5	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   14387	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         5         1         4         0         0         2
+  Octetsˇ:    18.1 k    14.0 k     4.0 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:              899187 Octets/sec.
+   DÇbitˇ:              51.451 MÇga-octets/min.
+   Finˇ: samedi 11 mars 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 13 mars 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   5	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   15722	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         5         1         4         0         0         2
+  Octetsˇ:    19.4 k    15.3 k     4.0 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             5240666 Octets/sec.
+   DÇbitˇ:             299.873 MÇga-octets/min.
+   Finˇ: lundi 13 mars 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: samedi 18 mars 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   5	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   17055	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         5         1         4         0         0         2
+  Octetsˇ:    20.7 k    16.6 k     4.0 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             8527500 Octets/sec.
+   DÇbitˇ:             487.947 MÇga-octets/min.
+   Finˇ: samedi 18 mars 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 20 mars 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   6	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	  Nouveau fichier		     236	Demarrer_clientIds.ps1100%  
+	   Plus rÇcent		   18390	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         6         2         4         0         0         2
+  Octetsˇ:    22.2 k    18.1 k     4.0 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             1552166 Octets/sec.
+   DÇbitˇ:              88.815 MÇga-octets/min.
+   Finˇ: lundi 20 mars 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: samedi 25 mars 2023 17:00:01
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   6	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   19783	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         6         1         5         0         0         2
+  Octetsˇ:    23.6 k    19.3 k     4.3 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             4945750 Octets/sec.
+   DÇbitˇ:             282.998 MÇga-octets/min.
+   Finˇ: samedi 25 mars 2023 17:00:01
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 27 mars 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   6	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   21118	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         6         1         5         0         0         2
+  Octetsˇ:    24.9 k    20.6 k     4.3 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:            10559000 Octets/sec.
+   DÇbitˇ:             604.190 MÇga-octets/min.
+   Finˇ: lundi 27 mars 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: samedi 1 avril 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   7	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		    2353	AlertLicenceLexi.ps1100%  
+	   Plus rÇcent		   22451	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         7         2         5         0         0         2
+  Octetsˇ:    26.3 k    24.2 k     2.1 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+   Finˇ: samedi 1 avril 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 3 avril 2023 17:00:01
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   7	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   23744	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         7         1         6         0         0         2
+  Octetsˇ:    27.6 k    23.1 k     4.4 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:            11872000 Octets/sec.
+   DÇbitˇ:             679.321 MÇga-octets/min.
+   Finˇ: lundi 3 avril 2023 17:00:01
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: samedi 8 avril 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   7	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   25077	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         7         1         6         0         0         2
+  Octetsˇ:    28.9 k    24.4 k     4.4 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:              626925 Octets/sec.
+   DÇbitˇ:              35.872 MÇga-octets/min.
+   Finˇ: samedi 8 avril 2023 17:00:01
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 10 avril 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   7	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   26412	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         7         1         6         0         0         2
+  Octetsˇ:    30.2 k    25.7 k     4.4 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             8804000 Octets/sec.
+   DÇbitˇ:             503.768 MÇga-octets/min.
+   Finˇ: lundi 10 avril 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: samedi 15 avril 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   7	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   27747	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         7         1         6         0         0         2
+  Octetsˇ:    31.5 k    27.0 k     4.4 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             1109880 Octets/sec.
+   DÇbitˇ:              63.507 MÇga-octets/min.
+   Finˇ: samedi 15 avril 2023 17:00:01
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 17 avril 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   7	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   29084	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         7         1         6         0         0         2
+  Octetsˇ:    32.8 k    28.4 k     4.4 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:            14542000 Octets/sec.
+   DÇbitˇ:             832.099 MÇga-octets/min.
+   Finˇ: lundi 17 avril 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: samedi 22 avril 2023 17:00:01
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   7	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		    1790	AlertDeleteBackup.ps1100%  
+	   Plus rÇcent		   30419	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         7         2         5         0         0         2
+  Octetsˇ:    34.2 k    31.4 k     2.7 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:            16104500 Octets/sec.
+   DÇbitˇ:             921.506 MÇga-octets/min.
+   Finˇ: samedi 22 avril 2023 17:00:01
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 24 avril 2023 17:00:01
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   7	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   31812	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         7         1         6         0         0         2
+  Octetsˇ:    35.6 k    31.0 k     4.5 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:            10604000 Octets/sec.
+   DÇbitˇ:             606.765 MÇga-octets/min.
+   Finˇ: lundi 24 avril 2023 17:00:01
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: samedi 29 avril 2023 17:00:01
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   7	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus ancien		    1790	AlertDeleteBackup.ps1100%  
+	   Plus rÇcent		   33147	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         7         2         5         0         0         2
+  Octetsˇ:    36.9 k    34.1 k     2.7 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:            11645666 Octets/sec.
+   DÇbitˇ:             666.370 MÇga-octets/min.
+   Finˇ: samedi 29 avril 2023 17:00:01
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 1 mai 2023 17:00:01
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   7	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   34540	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         7         1         6         0         0         2
+  Octetsˇ:    38.2 k    33.7 k     4.5 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:            17270000 Octets/sec.
+   DÇbitˇ:             988.197 MÇga-octets/min.
+   Finˇ: lundi 1 mai 2023 17:00:01
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: samedi 6 mai 2023 17:00:01
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   7	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		    1790	AlertDeleteBackup.ps1100%  
+	   Plus rÇcent		    2339	AlertLicenceLexi.ps1100%  
+	   Plus rÇcent		   35869	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         7         3         4         0         0         2
+  Octetsˇ:    39.5 k    39.0 k       501         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             6666333 Octets/sec.
+   DÇbitˇ:             381.450 MÇga-octets/min.
+   Finˇ: samedi 6 mai 2023 17:00:01
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 8 mai 2023 17:00:01
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   7	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   37311	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         7         1         6         0         0         2
+  Octetsˇ:    40.9 k    36.4 k     4.5 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:            37311000 Octets/sec.
+   DÇbitˇ:            2134.952 MÇga-octets/min.
+   Finˇ: lundi 8 mai 2023 17:00:01
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: samedi 13 mai 2023 17:00:01
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   8	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	  Nouveau fichier		    1176	Alert_Birthday.ps1100%  
+	   Plus rÇcent		   38640	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         8         2         6         0         0         2
+  Octetsˇ:    43.4 k    38.8 k     4.5 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             5688000 Octets/sec.
+   DÇbitˇ:             325.469 MÇga-octets/min.
+   Finˇ: samedi 13 mai 2023 17:00:01
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 15 mai 2023 17:00:01
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   8	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   40029	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         8         1         7         0         0         2
+  Octetsˇ:    44.7 k    39.0 k     5.6 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             8005800 Octets/sec.
+   DÇbitˇ:             458.095 MÇga-octets/min.
+   Finˇ: lundi 15 mai 2023 17:00:01
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: samedi 20 mai 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   8	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		    1140	Alert_Birthday.ps1100%  
+	   Plus rÇcent		   41360	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         8         2         6         0         0         2
+  Octetsˇ:    46.0 k    41.5 k     4.5 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             3035714 Octets/sec.
+   DÇbitˇ:             173.704 MÇga-octets/min.
+   Finˇ: samedi 20 mai 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 22 mai 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : C:\Users\gheitaa\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   8	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   42746	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         8         1         7         0         0         2
+  Octetsˇ:    47.3 k    41.7 k     5.6 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             2514470 Octets/sec.
+   DÇbitˇ:             143.879 MÇga-octets/min.
+   Finˇ: lundi 22 mai 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 19 juin 2023 11:16:32
+   Source : C:\SupportBe\Scripts\
+     Dest : A:\OneDrive\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   9	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		    1785	AlertDeleteBackup.ps1100%  
+	   Plus rÇcent		    2334	AlertLicenceLexi.ps1100%  
+	  Nouveau fichier		    1870	AlertLicenceOpenIdConnect.ps1100%  
+	   Plus rÇcent		    1135	Alert_Birthday.ps1100%  
+	   Plus rÇcent		     148	backup-script.bat100%  
+	   Plus rÇcent		     236	Demarrer_clientIds.ps1100%  
+	   Plus rÇcent		      41	Demarre_Gestion_Taches.ps1100%  
+	   Plus rÇcent		   44077	log.log100%  
+	   Plus rÇcent		      78	Redemarrer_idsav.bat100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         9         9         0         0         0         2
+  Octetsˇ:    50.4 k    50.4 k         0         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             3977230 Octets/sec.
+   DÇbitˇ:             227.578 MÇga-octets/min.
+   Finˇ: lundi 19 juin 2023 11:16:32
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 19 juin 2023 11:20:20
+   Source : C:\SupportBe\Scripts\
+     Dest : A:\OneDrive\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   9	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   45861	log.log100%  
+	  Nouveau fichier		     183	start Id-Sav.bat100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         9         2         7         0         0         2
+  Octetsˇ:    52.3 k    44.9 k     7.3 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:            46044000 Octets/sec.
+   DÇbitˇ:            2634.658 MÇga-octets/min.
+   Finˇ: lundi 19 juin 2023 11:20:20
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 19 juin 2023 11:20:38
+   Source : C:\SupportBe\Scripts\
+     Dest : A:\OneDrive\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                   9	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		     143	backup-script.bat100%  
+	   Plus rÇcent		   47243	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:         9         2         7         0         0         2
+  Octetsˇ:    53.6 k    46.2 k     7.4 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:            23693000 Octets/sec.
+   DÇbitˇ:            1355.724 MÇga-octets/min.
+   Finˇ: lundi 19 juin 2023 11:20:38
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 19 juin 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : A:\OneDrive\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                  11	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	  Nouveau fichier		    1248	Alert_SuiviSAV.ps1100%  
+	   Plus rÇcent		   48623	log.log100%  
+	  Nouveau fichier		     154	UpdateDataSuiviTacheSAV.bat100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:        11         3         8         0         0         2
+  Octetsˇ:    56.3 k    48.8 k     7.5 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:            16675000 Octets/sec.
+   DÇbitˇ:             954.151 MÇga-octets/min.
+   Finˇ: lundi 19 juin 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: mardi 20 juin 2023 14:58:50
+   Source : C:\SupportBe\Scripts\
+     Dest : A:\OneDrive\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                  11	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		    1853	AlertDeleteBackup.ps1100%  
+	   Plus rÇcent		    2402	AlertLicenceLexi.ps1100%  
+	   Plus rÇcent		    1937	AlertLicenceOpenIdConnect.ps1100%  
+	   Plus rÇcent		    1203	Alert_Birthday.ps1100%  
+	   Plus rÇcent		    1323	Alert_SuiviSAV.ps1100%  
+	   Plus rÇcent		   50072	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:        11         6         5         0         0         2
+  Octetsˇ:    58.1 k    57.4 k       757         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:            11758000 Octets/sec.
+   DÇbitˇ:             672.798 MÇga-octets/min.
+   Finˇ: mardi 20 juin 2023 14:58:50
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: vendredi 23 juin 2023 11:05:17
+   Source : C:\SupportBe\Scripts\
+     Dest : A:\OneDrive\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                  11	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		    2403	AlertLicenceLexi.ps1100%  
+	   Plus rÇcent		    1365	Alert_SuiviSAV.ps1100%  
+	   Plus rÇcent		   51681	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:        11         3         8         0         0         2
+  Octetsˇ:    59.7 k    54.1 k     5.6 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             6161000 Octets/sec.
+   DÇbitˇ:             352.535 MÇga-octets/min.
+   Finˇ: vendredi 23 juin 2023 11:05:17
+
+
+-------------------------------------------------------------------------------
+
+
+  DÇbutˇ: samedi 24 juin 2023 17:00:01
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: lundi 26 juin 2023 17:00:00
+   Source : C:\SupportBe\Scripts\
+     Dest : A:\OneDrive\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                  11	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		   53248	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:        11         1        10         0         0         2
+  Octetsˇ:    61.2 k    52.0 k     9.2 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:             5916444 Octets/sec.
+   DÇbitˇ:             338.541 MÇga-octets/min.
+   Finˇ: lundi 26 juin 2023 17:00:00
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: mardi 27 juin 2023 11:42:59
+   Source : C:\SupportBe\Scripts\
+     Dest : A:\OneDrive\Innovative Digital Technologies\Support BE - General\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                  11	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		    1534	Alert_SuiviSAV.ps1100%  
+	   Plus rÇcent		   54576	log.log100%  
+
+-------------------------------------------------------------------------------
+
+               Total     CopiÇ    IgnorÇDiscordance     êCHEC    Extras
+     RÇpˇ:         1         0         1         0         0         0
+Fichiersˇ:        11         2         9         0         0         2
+  Octetsˇ:    62.7 k    54.7 k     7.9 k         0         0    4.53 m
+   Heures:   0:00:00   0:00:00                       0:00:00   0:00:00
+
+
+   DÇbitˇ:            18703333 Octets/sec.
+   DÇbitˇ:            1070.213 MÇga-octets/min.
+   Finˇ: mardi 27 juin 2023 11:42:59
+
+
+-------------------------------------------------------------------------------
+   ROBOCOPY   ::   Copie de fichiers robuste pour Windows     
+-------------------------------------------------------------------------------
+
+  DÇbutˇ: vendredi 30 juin 2023 09:19:36
+   Source : C:\SupportBe\Scripts\
+     Dest : A:\OneDrive\Innovative Digital Technologies\Support BE - General\Git\Scripts\
+
+    Fichiers : *.*
+	    
+  Options : *.* /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+-------------------------------------------------------------------------------
+
+	                  11	C:\SupportBe\Scripts\
+	  *Fichier SUPPL.		    1208	Delete bin obj.bat
+	  *Fichier SUPPL.		   4.5 m	insert code SH.txt
+	   Plus rÇcent		    1859	AlertDeleteBackup.ps1100%  
+	   Plus rÇcent		     147	backup-script.bat100%  
+	   Plus rÇcent		   55957	log.log
