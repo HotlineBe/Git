@@ -40,9 +40,6 @@ foreach ($data in $datas){
 
 }
 
-
-Write-Output $infos
-
 if($elements.Count -gt 0) {
 
     $SecurePassword = ConvertTo-SecureString '1597e612e984c0453d60502e7425d755' -AsPlainText -Force
@@ -53,7 +50,6 @@ if($elements.Count -gt 0) {
     $From = 'support-be@idt.pf'
     $Cc = 'dmelzani@idt.pf','sreverdy@idt.pf' 
     $Subject = "[Registre Licence Lexi] Liste des licences à revenouveller"
-    #$Body = "Clients : <br> " + $elements.Keys + "<br><br>Date d'expiration : <br>" + $elements.Values
     $Body = 'Bonjour, <br><ul>' + $infos + '</ul><br><i>Equipe support</i>'
     Send-MailMessage -To $To -From $From -Cc $Cc -SmtpServer $SmtpServer -Credential $Credential -Port "587" -UseSsl -Subject $Subject -BodyAsHtml $Body -Encoding $encodingMail
 
