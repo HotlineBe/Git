@@ -46,9 +46,9 @@ $compteurMAJ = 0;
 
 # Entête
 $css = '<style>h1{text-align: center; padding: 2%; color: #557CBA;} #recap{background: #2ca747;} h2{text-decoration: underline; color: #572B50;} h3{font-style: italic; color: #B271A8;} table{border-collapse: collapse; width:80%; margin:auto;}th, td{ border: 1px solid black; padding: 10px;} th{background-color : #557CBA; color : #F5EFF4;}</style>'
-$enteteTacheIdsav = '<h2>II - Détails</h2><h3>A) Liste des tâches :</h3><table><tr><th>Intervenant</th><th>Description</th><th>Détail</th><th>Client</th><th>Date</th></tr>'
+$enteteTacheIdsav = '<h2>II - Détails</h2><h3>A) Liste de tâches à ne pas oublier :</h3><table><tr><th>Intervenant</th><th>Description</th><th>Détail</th><th>Client</th><th>Date</th></tr>'
 $enteteBackups = "<h3>B) Liste des backups à supprimer :</h3><table><tr><th>Client</th><th>Date du backup</th><th>Durée de conservation</th><th>Emplacement</th><th>Nom de la base de données</th></tr>";
-$enteteConnexionTse = "<h3>C) Les connexions tse de la veille :</h3><table><tr><th>Intervenant</th><th>Client</th><th>Description</th><th>Type de connexion</th></tr>";
+$enteteConnexionTse = "<h3>C) Les connexions TSE de la veille :</h3><table><tr><th>Intervenant</th><th>Client</th><th>Description</th><th>Type de connexion</th></tr>";
 $enteteLicenceLexi = "<h3>D) Liste des licences Lexi arrivant à expiration :</h3><table><tr><th>Client</th><th>Module</th><th>Date d'expiration</th><th>Jour de grace</th></tr>";
 $enteteMAJ = "<h3>E) Les mises à jour client :</h3><table><tr><th>Opérateur</th><th>Client</th><th>Application</th><th>Type</th><th>Description</th></tr>";
 $enteteanniversaire = "";
@@ -191,11 +191,10 @@ if($resultat -ne ''){
     $Credential = New-Object System.Management.Automation.PSCredential ('986328c41d9044ce7fe166c76e0bdb08', $SecurePassword)
     $SmtpServer = 'in-v3.mailjet.com'  
     $encodingMail = [System.Text.Encoding]::UTF8
-    $To = 'support-be@idt.pff'
+    $To = 'support-be@idt.pf'
     $From = 'support-be@idt.pf'
     $Cc = 'dmelzani@idt.pf','sreverdy@idt.pf' 
     $Subject = "Rapport d'activité du " + $todayJJMMYYY
     $Body = $resultat
     Send-MailMessage -To $To -From $From -Cc $Cc -SmtpServer $SmtpServer -Credential $Credential -Port "587" -UseSsl -Subject $Subject -BodyAsHtml $Body -Encoding $encodingMail
-
 }
