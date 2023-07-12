@@ -10,4 +10,4 @@ SELECT * FROM
 	AND i.TypePlanification != 3
 ) t
 WHERE t.FluxStatut != 3
-order by t.Intervenant desc, t.Code, t.PlanningDebut
+order by t.Intervenant asc, t.PlanningDebut desc
