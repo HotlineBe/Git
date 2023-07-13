@@ -24,6 +24,10 @@ $pathMAJ = "A:\OneDrive\Innovative Digital Technologies\Support BE - General\Reg
 $worksheetnameMAJ = "Form1"
 $datasMAJ = Import-Excel -Path $pathMAJ  -WorksheetName $worksheetnameMAJ
 
+$pathTacheHier = "A:\OneDrive\Innovative Digital Technologies\Support BE - General\Registres\SuiviDesTachesSAV.xlsm"
+$worksheetnameTacheHier = "Tâches N-1"
+$datasTacheHier = Import-Excel -Path $pathTacheHier  -WorksheetName $worksheetnameTacheHier
+
 #$pathAnniversaire = "A:\OneDrive\Innovative Digital Technologies\Support BE - General\Registres\Registre de backup.xlsx"
 #$worksheetnameAnniversaire = "Data"
 #$datasAnniversaire = Import-Excel -Path $pathAnniversaire  -WorksheetName $worksheetnameAnniversaire
@@ -37,20 +41,27 @@ $connexionTse = "";
 $licenceLexi = "";
 $MAJ = "";
 $anniversaire = "";
+$gilles = "";
+$leilanie = "";
+$stephanie = "";
 
 $compteurTaches = 0;
 $compteurBackups = 0;
 $compteurConnexionTse = 0;
 $compteurLicenceLexi = 0;
 $compteurMAJ = 0;
+$compteurGilles = 0;
+$compteurLeilanie = 0;
+$compteurStephanie = 0;
+$compteurHier = 0;
 
 # Entête
-$css = '<style>h1{text-align: center; padding: 2%; color: #557CBA;} #recap{background: #2ca747;} h2{text-decoration: underline; color: #572B50;} h3{font-style: italic; color: #B271A8;} table{border-collapse: collapse; width:80%; margin:auto;}th, td{ border: 1px solid black; padding: 10px;} th{background-color : #557CBA; color : #F5EFF4;}</style>'
-$enteteTacheIdsav = '<h2>II - Détails</h2><h3>A) Liste de tâches à ne pas oublier :</h3><table><tr><th>Intervenant</th><th>Description</th><th>Détail</th><th>Client</th><th>Date</th></tr>'
-$enteteBackups = "<h3>B) Liste des backups à supprimer :</h3><table><tr><th>Client</th><th>Date du backup</th><th>Durée de conservation</th><th>Emplacement</th><th>Nom de la base de données</th></tr>";
-$enteteConnexionTse = "<h3>C) Les connexions TSE de la veille :</h3><table><tr><th>Intervenant</th><th>Client</th><th>Description</th><th>Type de connexion</th></tr>";
-$enteteLicenceLexi = "<h3>D) Liste des licences Lexi arrivant à expiration :</h3><table><tr><th>Client</th><th>Module</th><th>Date d'expiration</th><th>Jour de grace</th></tr>";
-$enteteMAJ = "<h3>E) Les mises à jour client :</h3><table><tr><th>Opérateur</th><th>Client</th><th>Application</th><th>Type</th><th>Description</th></tr>";
+$css = '<style>h1{text-align: center; padding: 2%; color: #557CBA;} #recap{background: #2ca747;} h2{text-decoration: underline; color: #572B50;} h3{font-style: italic; color: #B271A8;} h4{margin-left: 20px;} table {border-collapse: collapse; width:80%; margin:auto;}th, td{ border: 1px solid black; padding: 10px;} th{background-color : #557CBA; color : #F5EFF4;}</style>'
+$enteteTacheIdsav = '<h3>B) Liste de tâches à ne pas oublier :</h3><table><tr><th>Intervenant</th><th>Description</th><th>Détail</th><th>Client</th><th>Date</th></tr>'
+$enteteBackups = "<h3>C) Liste des backups à supprimer :</h3><table><tr><th>Client</th><th>Date du backup</th><th>Durée de conservation</th><th>Emplacement</th><th>Nom de la base de données</th></tr>";
+$enteteConnexionTse = "<h3>D) Les connexions TSE de la veille :</h3><table><tr><th>Intervenant</th><th>Client</th><th>Description</th><th>Type de connexion</th></tr>";
+$enteteLicenceLexi = "<h3>E) Liste des licences Lexi arrivant à expiration :</h3><table><tr><th>Client</th><th>Module</th><th>Date d'expiration</th><th>Jour de grace</th></tr>";
+$enteteMAJ = "<h3>F) Les mises à jour client :</h3><table><tr><th>Opérateur</th><th>Client</th><th>Application</th><th>Type</th><th>Description</th></tr>";
 $enteteanniversaire = "";
 
 
@@ -60,6 +71,29 @@ foreach ($data in $datasTachesIdSav){
     $tachesIdSav += '<tr><td>' + $data.Intervenant + '</td><td>' + $data.Description + '</td><td>' + $data.Notes + '</td><td>' +  $data.NomClient + '</td><td>' + $data.PlanningDebut + '</td></tr>'
     $compteurTaches = $compteurTaches + 1
 }
+
+### Tâches faite la veille
+foreach ($data in $datasTacheHier){
+    
+    if($data.Intervenant -eq "Gilles"){
+        $gilles += '<tr><td>' + $data.NomClient + '</td><td>' + $data.Description + '</td><td>' + $data.Notes + '</td><td>' + $data.PlanningDebut + '</td></tr>'
+        $compteurGilles = $compteurGilles + 1
+        $compteurHier = $compteurHier + 1
+    }
+    if($data.Intervenant -eq "Leilanie"){
+        $leilanie += '<tr><td>' + $data.NomClient + '</td><td>' + $data.Description + '</td><td>' + $data.Notes + '</td><td>' + $data.PlanningDebut + '</td></tr>'
+        $compteurLeilanie = $compteurLeilanie + 1
+        $compteurHier = $compteurHier + 1
+    }
+    if($data.Intervenant -eq "Stéphanie"){
+        $stephanie += '<tr><td>' + $data.NomClient + '</td><td>' + $data.Description + '</td><td>' + $data.Notes + '</td><td>' + $data.PlanningDebut + '</td></tr>'
+        $compteurStephanie = $compteurStephanie + 1
+        $compteurHier = $compteurHier + 1
+    }
+}
+
+
+
 
 ## Backups
 for($i = 0 ; $i -lt $datasBackups.Length; $i++){
@@ -134,9 +168,31 @@ $resultat += $css
 $resultat += "<h1>Rapport d'activité du " + $todayJJMMYYY + "</h1>"
 
 ### RECAP
-$resultat += "<h2>I - Récapitulatif : </h2><table><tr><th id='recap'>Tâches</th><th id='recap'>Backup</th><th id='recap'>Nombre de connexion TSE</th><th id='recap'>Licence Lexi</th><th id='recap'>Mise à jour client</th></tr><tr><td>" + $compteurTaches + "</td><td>" + $compteurBackups + "</td><td>" + $compteurConnexionTse + "</td><td>" + $compteurLicenceLexi + "</td><td>" + $compteurMAJ + "</td></tr></table>"
+$resultat += "<h2>I - Récapitulatif : </h2><table><tr><th id='recap'>Tâches faite hier</th><th id='recap'>Tâches en mémo</th><th id='recap'>Backup</th><th id='recap'>Nombre de connexion TSE</th><th id='recap'>Licence Lexi</th><th id='recap'>Mise à jour client</th></tr><td>" + $compteurHier +"</td><td>" + $compteurTaches + "</td><td>" + $compteurBackups + "</td><td>" + $compteurConnexionTse + "</td><td>" + $compteurLicenceLexi + "</td><td>" + $compteurMAJ + "</td></tr></table>"
 
 #### Alimenter la variable resultat
+
+$resultat += "<h2>II - Détails</h2>"
+
+$resultat += "<h3>A) Récapitulatif des tâches faites le " + $hierJJMMYYY + "(" + $compteurHier + " tâches)</h3>"
+
+
+$enteteGilles = "<h4>Gilles (" + $compteurGilles +" tâches)</h4><table><tr><th>Client</th><th>Description</th><th>Détail</th><th>Date</th></tr>";
+$enteteLeilanie = "<h4>Leilnaie (" + $compteurLeilanie +" tâches)</h4><table><tr><th>Client</th><th>Description</th><th>Détail</th><th>Date</th></tr>";
+$enteteStephanie = "<h4>Stéphanie (" + $compteurStephanie +" tâches)</h4><table><tr><th>Client</th><th>Description</th><th>Détail</th><th>Date</th></tr>";
+
+$resultat += $enteteGilles;
+$resultat += $gilles;
+$resultat += "</table>";
+
+$resultat += $enteteStephanie;
+$resultat += $stephanie;
+$resultat += "</table>";
+
+$resultat += $enteteLeilanie;
+$resultat += $leilanie;
+$resultat += "</table>";
+
 
 if($tachesIdSav -ne ''){
     
