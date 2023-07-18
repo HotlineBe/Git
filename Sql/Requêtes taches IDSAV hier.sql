@@ -37,6 +37,6 @@ select distinct * from (
 	JOIN acl.Utilisateurs u on i.OperateurId = u.Id
 	LEFT JOIN sav.InterventionDetails id on id.InterventionId = i.Id
 	WHERE u.Intitule in ('Gilles', 'Stéphanie', 'Leilanie')
-	AND convert(varchar, i.PlanningFin, 23) = convert(varchar, getdate(), 23)
+	AND convert(varchar, i.PlanningFin, 23) = convert(varchar, getdate()-1, 23)
 ) t 
 ORDER BY t.Intervenant
