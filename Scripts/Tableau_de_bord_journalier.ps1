@@ -198,7 +198,7 @@ $resultat += $css
 $resultat += "<h1>Rapport d'activité du " + $todayJJMMYYY + "</h1>"
 
 ### RECAP
-$resultat += "<h2>I - Récapitulatif : </h2><table><tr><th id='recap'>Tâches (N et N-1)</th><th id='recap'>Tâches en mémo</th><th id='recap'>Backup</th><th id='recap'>Nombre de connexion TSE</th><th id='recap'>Licence Lexi</th><th id='recap'>Mise à jour client</th></tr><td>" + $compteurHier +"</td><td>" + $compteurTaches + "</td><td>" + $compteurBackups + "</td><td>" + $compteurConnexionTse + "</td><td>" + $compteurLicenceLexi + "</td><td>" + $compteurMAJ + "</td></tr></table>"
+$resultat += "<h2>I - Récapitulatif : </h2><table><tr><th id='recap'>Tâches (N et N-1)</th><th id='recap'>Tâches en mémo</th><th id='recap'>Backup</th><th id='recap'>Nombre de connexion TSE (N et N-1)</th><th id='recap'>Licence Lexi</th><th id='recap'>Mise à jour client</th></tr><td>" + $compteurHier +"</td><td>" + $compteurTaches + "</td><td>" + $compteurBackups + "</td><td>" + $compteurConnexionTse + "</td><td>" + $compteurLicenceLexi + "</td><td>" + $compteurMAJ + "</td></tr></table>"
 
 #### Alimenter la variable resultat
 
