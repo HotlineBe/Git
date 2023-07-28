@@ -4,9 +4,13 @@ $todayJJMMYYY = [System.DateTime]::Now.AddDays(0).ToString('dd/MM/yyyy')
 $hierJJMMYYY = [System.DateTime]::Now.AddDays(-1).ToString('dd/MM/yyyy')
 
 # GET des données venant du fichier Excel
-$pathTachesIdSav = "A:\OneDrive\Innovative Digital Technologies\Support BE - General\Registres\TB.xlsm"
+$pathTaches = "A:\OneDrive\Innovative Digital Technologies\Support BE - General\Registres\TB.xlsm"
 $worksheetnameTachesIdSav = "Mémo"
-$datasTachesIdSav = Import-Excel -Path $pathTachesIdSav  -WorksheetName $worksheetnameTachesIdSav
+$worksheetnameTacheToday = "Tâches N"
+$worksheetnameTacheHier = "Tâches N-1"
+$datasTachesIdSav = Import-Excel -Path $pathTaches  -WorksheetName $worksheetnameTachesIdSav
+$datasTacheHier = Import-Excel -Path $pathTaches  -WorksheetName $worksheetnameTacheHier
+$datasTacheToday = Import-Excel -Path $pathTaches  -WorksheetName $worksheetnameTacheToday
 
 $pathBackups = "A:\OneDrive\Innovative Digital Technologies\Support BE - General\Registres\Registre de backup.xlsx"
 $worksheetnameBackups = "Form1"
@@ -24,15 +28,6 @@ $pathMAJ = "A:\OneDrive\Innovative Digital Technologies\Support BE - General\Reg
 $worksheetnameMAJ = "Form1"
 $datasMAJ = Import-Excel -Path $pathMAJ  -WorksheetName $worksheetnameMAJ
 
-$pathTacheHier = "A:\OneDrive\Innovative Digital Technologies\Support BE - General\Registres\TB.xlsm"
-$worksheetnameTacheHier = "Tâches N-1"
-$datasTacheHier = Import-Excel -Path $pathTacheHier  -WorksheetName $worksheetnameTacheHier
-
-#$pathAnniversaire = "A:\OneDrive\Innovative Digital Technologies\Support BE - General\Registres\Registre de backup.xlsx"
-#$worksheetnameAnniversaire = "Data"
-#$datasAnniversaire = Import-Excel -Path $pathAnniversaire  -WorksheetName $worksheetnameAnniversaire
-
-
 # Résultat de traitement
 $resultat = "";
 $tachesIdSav = "";
@@ -40,7 +35,6 @@ $backups = "";
 $connexionTse = "";
 $licenceLexi = "";
 $MAJ = "";
-$anniversaire = "";
 $gilles = "";
 $leilanie = "";
 $stephanie = "";
@@ -57,11 +51,11 @@ $compteurHier = 0;
 
 # Entête
 $css = '<style>h1{text-align: center; padding: 2%; color: #557CBA;} #recap{background: #2ca747;} h2{text-decoration: underline; color: #572B50;} h3{font-style: italic; color: #B271A8;} h4{margin-left: 20px;} table {border-collapse: collapse; width:80%; margin:auto;}th, td{ border: 1px solid black; padding: 10px;} th{background-color : #557CBA; color : #F5EFF4;}</style>'
-$enteteTacheIdsav = '<h3>B) Liste de tâches à ne pas oublier :</h3><table><tr><th>Intervenant</th><th>Description</th><th>Détail</th><th>Client</th><th>Date</th></tr>'
+$enteteConnexionTse = "<h3>B) Les connexions TSE :</h3><table><tr><th>Intervenant</th><th>Client</th><th>Description</th><th>Type de connexion</th></tr>";
 $enteteBackups = "<h3>C) Liste des backups à supprimer :</h3><table><tr><th>Client</th><th>Date du backup</th><th>Durée de conservation</th><th>Emplacement</th><th>Nom de la base de données</th></tr>";
-$enteteConnexionTse = "<h3>D) Les connexions TSE de la veille :</h3><table><tr><th>Intervenant</th><th>Client</th><th>Description</th><th>Type de connexion</th></tr>";
-$enteteLicenceLexi = "<h3>E) Liste des licences Lexi arrivant à expiration :</h3><table><tr><th>Client</th><th>Module</th><th>Date d'expiration</th><th>Jour de grace</th></tr>";
-$enteteMAJ = "<h3>F) Les mises à jour client :</h3><table><tr><th>Opérateur</th><th>Client</th><th>Application</th><th>Type</th><th>Description</th></tr>";
+$enteteLicenceLexi = "<h3>D) Liste des licences Lexi arrivant à expiration :</h3><table><tr><th>Client</th><th>Module</th><th>Date d'expiration</th><th>Jour de grace</th></tr>";
+$enteteMAJ = "<h3>E) Les mises à jour client :</h3><table><tr><th>Opérateur</th><th>Client</th><th>Application</th><th>Type</th><th>Description</th></tr>";
+$enteteTacheIdsav = '<h3>F) Focus sur certaines tâches (en urgence ou à ne pas oublier) :</h3><table><tr><th>Intervenant</th><th>Description</th><th>Détail</th><th>Client</th><th>Date</th></tr>'
 $enteteanniversaire = "";
 
 
@@ -72,27 +66,53 @@ foreach ($data in $datasTachesIdSav){
     $compteurTaches = $compteurTaches + 1
 }
 
-### Tâches faite la veille
-foreach ($data in $datasTacheHier){
+### Tâches faite aujourd'hui
+$gilles += '<tr><td colspan="5" style="text-align: center; font-weight:bold;background:#C9B9F3;">Tâches du '+ $todayJJMMYYY + '</td></tr>'
+$leilanie += '<tr><td colspan="5" style="text-align: center; font-weight:bold;background:#C9B9F3;">Tâches du '+ $todayJJMMYYY + '</td></tr>'
+$stephanie += '<tr><td colspan="5" style="text-align: center; font-weight:bold;background:#C9B9F3;">Tâches du '+ $todayJJMMYYY + '</td></tr>'
+
+foreach ($data in $datasTacheToday){
     
     if($data.Intervenant -eq "Gilles"){
-        $gilles += '<tr><td>' + $data.NomClient + '</td><td>' + $data.Description + '</td><td>' + $data.Notes + '</td><td>' + $data.PlanningDebut + '</td></tr>'
+        $gilles += '<tr><td>' + $data.NomClient + '</td><td>' + $data.Description + '</td><td>' + $data.Notes + '</td><td>' + $data.PlanningDebut + '</td><td>' + $data.TypePlanification + '</td></tr>'
         $compteurGilles = $compteurGilles + 1
         $compteurHier = $compteurHier + 1
     }
     if($data.Intervenant -eq "Leilanie"){
-        $leilanie += '<tr><td>' + $data.NomClient + '</td><td>' + $data.Description + '</td><td>' + $data.Notes + '</td><td>' + $data.PlanningDebut + '</td></tr>'
+        $leilanie += '<tr><td>' + $data.NomClient + '</td><td>' + $data.Description + '</td><td>' + $data.Notes + '</td><td>' + $data.PlanningDebut + '</td><td>' + $data.TypePlanification + '</td></tr>'
         $compteurLeilanie = $compteurLeilanie + 1
         $compteurHier = $compteurHier + 1
     }
     if($data.Intervenant -eq "Stéphanie"){
-        $stephanie += '<tr><td>' + $data.NomClient + '</td><td>' + $data.Description + '</td><td>' + $data.Notes + '</td><td>' + $data.PlanningDebut + '</td></tr>'
+        $stephanie += '<tr><td>' + $data.NomClient + '</td><td>' + $data.Description + '</td><td>' + $data.Notes + '</td><td>' + $data.PlanningDebut + '</td><td>' + $data.TypePlanification + '</td></tr>'
         $compteurStephanie = $compteurStephanie + 1
         $compteurHier = $compteurHier + 1
     }
 }
 
+### Tâches faite la veille
+$gilles += '<tr><td colspan="5" style="text-align: center; font-weight:bold;background:#C9B9F3;">Tâches du '+ $hierJJMMYYY + '</td></tr>'
+$leilanie += '<tr><td colspan="5" style="text-align: center; font-weight:bold;background:#C9B9F3;">Tâches du '+ $hierJJMMYYY + '</td></tr>'
+$stephanie += '<tr><td colspan="5" style="text-align: center; font-weight:bold;background:#C9B9F3;">Tâches du '+ $hierJJMMYYY + '</td></tr>'
 
+foreach ($data in $datasTacheHier){
+    
+    if($data.Intervenant -eq "Gilles"){
+        $gilles += '<tr><td>' + $data.NomClient + '</td><td>' + $data.Description + '</td><td>' + $data.Notes + '</td><td>' + $data.PlanningDebut + '</td><td>' + $data.TypePlanification + '</td></tr>'
+        $compteurGilles = $compteurGilles + 1
+        $compteurHier = $compteurHier + 1
+    }
+    if($data.Intervenant -eq "Leilanie"){
+        $leilanie += '<tr><td>' + $data.NomClient + '</td><td>' + $data.Description + '</td><td>' + $data.Notes + '</td><td>' + $data.PlanningDebut + '</td><td>' + $data.TypePlanification + '</td></tr>'
+        $compteurLeilanie = $compteurLeilanie + 1
+        $compteurHier = $compteurHier + 1
+    }
+    if($data.Intervenant -eq "Stéphanie"){
+        $stephanie += '<tr><td>' + $data.NomClient + '</td><td>' + $data.Description + '</td><td>' + $data.Notes + '</td><td>' + $data.PlanningDebut + '</td><td>' + $data.TypePlanification + '</td></tr>'
+        $compteurStephanie = $compteurStephanie + 1
+        $compteurHier = $compteurHier + 1
+    }
+}
 
 
 ## Backups
@@ -109,6 +129,16 @@ for($i = 0 ; $i -lt $datasBackups.Length; $i++){
 
 
 ## Connexion TSE
+$connexionTse += '<tr><td colspan="4" style="text-align: center; font-weight:bold;background:#C9B9F3;">Connexion du '+ $todayJJMMYYY + '</td></tr>'
+for($i = 0 ; $i -lt $datasConnexionTse.Length; $i++){
+    if($datasConnexionTse[$i].Date.AddDays(0).ToString('dd/MM/yyyy') -eq $todayJJMMYYY){
+        $connexionTse += '<tr><td>' + $datasConnexionTse[$i].Name + '</td><td>' + $datasConnexionTse[$i].Client + '</td><td>' + $datasConnexionTse[$i]."Description de l'intervention" + '</td><td>' + $datasConnexionTse[$i]."Serveur ou type de connexion (Anydesk/Teamviewer)" + '</td></tr>'
+        $compteurConnexionTse = $compteurConnexionTse + 1
+    }
+
+}
+
+$connexionTse += '<tr><td colspan="4" style="text-align: center; font-weight:bold;background:#C9B9F3;">Connexion du '+ $hierJJMMYYY + '</td></tr>'
 for($i = 0 ; $i -lt $datasConnexionTse.Length; $i++){
     if($datasConnexionTse[$i].Date.AddDays(0).ToString('dd/MM/yyyy') -eq $hierJJMMYYY){
         $connexionTse += '<tr><td>' + $datasConnexionTse[$i].Name + '</td><td>' + $datasConnexionTse[$i].Client + '</td><td>' + $datasConnexionTse[$i]."Description de l'intervention" + '</td><td>' + $datasConnexionTse[$i]."Serveur ou type de connexion (Anydesk/Teamviewer)" + '</td></tr>'
@@ -165,21 +195,21 @@ for($i = 0 ; $i -lt $datasMAJ.Length; $i++){
 
 ### Début
 $resultat += $css
-$resultat += "<h1>Rapport d'activité du " + $todayJJMMYYY + "</h1>"
+$resultat += "<h1>Rapport d'activité de fin de journée du " + $todayJJMMYYY + "</h1>"
 
 ### RECAP
-$resultat += "<h2>I - Récapitulatif : </h2><table><tr><th id='recap'>Tâches faite hier</th><th id='recap'>Tâches en mémo</th><th id='recap'>Backup</th><th id='recap'>Nombre de connexion TSE</th><th id='recap'>Licence Lexi</th><th id='recap'>Mise à jour client</th></tr><td>" + $compteurHier +"</td><td>" + $compteurTaches + "</td><td>" + $compteurBackups + "</td><td>" + $compteurConnexionTse + "</td><td>" + $compteurLicenceLexi + "</td><td>" + $compteurMAJ + "</td></tr></table>"
+$resultat += "<h2>I - Récapitulatif : </h2><table><tr><th id='recap'>Tâches (N et N-1)</th><th id='recap'>Tâches en mémo</th><th id='recap'>Backup</th><th id='recap'>Nombre de connexion TSE (N et N-1)</th><th id='recap'>Licence Lexi</th><th id='recap'>Mise à jour client</th></tr><td>" + $compteurHier +"</td><td>" + $compteurTaches + "</td><td>" + $compteurBackups + "</td><td>" + $compteurConnexionTse + "</td><td>" + $compteurLicenceLexi + "</td><td>" + $compteurMAJ + "</td></tr></table>"
 
 #### Alimenter la variable resultat
 
 $resultat += "<h2>II - Détails</h2>"
 
-$resultat += "<h3>A) Récapitulatif des tâches faites le " + $hierJJMMYYY + "(" + $compteurHier + " tâches)</h3>"
+$resultat += "<h3>A) Récapitulatif des tâches faites du " + $hierJJMMYYY + " au " + $todayJJMMYYY + "(" + $compteurHier + " tâches)</h3>"
 
 
-$enteteGilles = "<h4>Gilles (" + $compteurGilles +" tâches)</h4><table><tr><th>Client</th><th>Description</th><th>Détail</th><th>Date</th></tr>";
-$enteteLeilanie = "<h4>Leilnaie (" + $compteurLeilanie +" tâches)</h4><table><tr><th>Client</th><th>Description</th><th>Détail</th><th>Date</th></tr>";
-$enteteStephanie = "<h4>Stéphanie (" + $compteurStephanie +" tâches)</h4><table><tr><th>Client</th><th>Description</th><th>Détail</th><th>Date</th></tr>";
+$enteteGilles = "<h4>Gilles (" + $compteurGilles +" tâches)</h4><table><tr><th>Client</th><th>Description</th><th>Détail</th><th>Date<br>de création</th><th>Flux</th></tr>";
+$enteteLeilanie = "<h4>Leilnaie (" + $compteurLeilanie +" tâches)</h4><table><tr><th>Client</th><th>Description</th><th>Détail</th><th>Date<br>de création</th><th>Flux</th></tr>";
+$enteteStephanie = "<h4>Stéphanie (" + $compteurStephanie +" tâches)</h4><table><tr><th>Client</th><th>Description</th><th>Détail</th><th>Date<br>de création</th><th>Flux</th></tr>";
 
 $resultat += $enteteGilles;
 $resultat += $gilles;
@@ -193,25 +223,7 @@ $resultat += $enteteLeilanie;
 $resultat += $leilanie;
 $resultat += "</table>";
 
-
-if($tachesIdSav -ne ''){
-    
-    $resultat += $enteteTacheIdsav;
-    $resultat += $tachesIdSav;
-    $resultat += "</table>";
-    
-}
-
-
-if($tachesIdSav -ne ''){
-    
-    $resultat += $enteteBackups;
-    $resultat += $backups;
-    $resultat += "</table>";
-    
-}
-
-if($tachesIdSav -ne ''){
+if($compteurConnexionTse -ne 0){
     
     $resultat += $enteteConnexionTse;
     $resultat += $connexionTse;
@@ -219,9 +231,15 @@ if($tachesIdSav -ne ''){
     
 }
 
+if($compteurBackups -ne 0){
+    
+    $resultat += $enteteBackups;
+    $resultat += $backups;
+    $resultat += "</table>";
+    
+}
 
-
-if($tachesIdSav -ne ''){
+if($compteurLicenceLexi -ne 0){
     
     $resultat += $enteteLicenceLexi;
     $resultat += $licenceLexi;
@@ -230,10 +248,18 @@ if($tachesIdSav -ne ''){
 }
 
 
-if($tachesIdSav -ne ''){
+if($compteurMAJ -ne 0){
     
     $resultat += $enteteMAJ;
     $resultat += $MAJ;
+    $resultat += "</table>";
+    
+}
+
+if($compteurTaches -ne 0){
+    
+    $resultat += $enteteTacheIdsav;
+    $resultat += $tachesIdSav;
     $resultat += "</table>";
     
 }
@@ -247,10 +273,10 @@ if($resultat -ne ''){
     $Credential = New-Object System.Management.Automation.PSCredential ('986328c41d9044ce7fe166c76e0bdb08', $SecurePassword)
     $SmtpServer = 'in-v3.mailjet.com'  
     $encodingMail = [System.Text.Encoding]::UTF8
-    $To = 'support-be@idt.pf'
+    $To = 'gheitaa@idt.pf'
     $From = 'support-be@idt.pf'
-    $Cc = 'dmelzani@idt.pf','sreverdy@idt.pf' 
-    $Subject = "Rapport d'activité du " + $todayJJMMYYY
+    $Cc = 'noreplay@idt.pf' 
+    $Subject = "Rapport d'activité de fin de journée du " + $todayJJMMYYY
     $Body = $resultat
     Send-MailMessage -To $To -From $From -Cc $Cc -SmtpServer $SmtpServer -Credential $Credential -Port "587" -UseSsl -Subject $Subject -BodyAsHtml $Body -Encoding $encodingMail
 }
