@@ -1,0 +1,1 @@
+del /Q "C:\Users\gheitaa\AppData\Local\Microsoft\Outlook\gheitaa@idt.pf(*"
